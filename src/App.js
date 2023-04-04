@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './Companents/Navbar/Navbar'
+import Circle_carousel from './Companents/Circle_carousel/Circle_carousel'
+import Big_carousel from './Companents/Big_carousel/Big_carousel';
+import Kategoriya from './Companents/Kategoriya/Kategoriya';
+import Draw_obuv from './Companents/Draw_Obuv/Draw_obuv';
+import Tanlanganlar from './Companents/Tanlanganlar/Tanlanganlar';
+import Draw_odejd from './Companents/Draw_odejd/Draw_odejd';
+import Draw_accs from './Companents/Draw_accs/Draw_accs';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Navbar/>
+     <Circle_carousel />
+     <Big_carousel />
+     <Kategoriya />
+     <Draw_obuv />
+     <Draw_odejd />
+     {/* <Draw_accs /> */}
+     {/* <Tanlanganlar /> */}
     </div>
   );
 }

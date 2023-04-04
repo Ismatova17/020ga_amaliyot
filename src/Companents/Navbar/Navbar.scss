@@ -1,0 +1,118 @@
+.navbar_category {
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.select_col {
+    position: relative;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    .nav_select:focus {
+        box-shadow: none;
+        border: 1px solid rgba(0, 0, 0, 0.199);
+        color: rgba(0, 0, 0, 0.38);
+    }
+
+    .nav_select {
+        border: none;
+        border-radius: 0 !important;
+        width: 250px;
+        padding: 8px 10px;
+        filter: drop-shadow(0px 2px 1px rgba(0, 0, 0, 0.14)) drop-shadow(0px 1px 0px rgba(0, 0, 0, 0.12)) drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.2));
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+        color: rgba(0, 0, 0, 0.38);
+    }
+
+    .Categ_icon {
+        position: absolute;
+        right: 8.2rem;
+        font-size: 18px;
+    }
+}
+
+
+.nav_input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.summa_input:focus{
+    border: 1px solid rgba(0, 0, 0, 0.089) !important;
+}
+.summa_input {
+    border: none;
+    filter: drop-shadow(0px 2px 1px rgba(0, 0, 0, 0.14)) drop-shadow(0px 1px 0px rgba(0, 0, 0, 0.12)) drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.2));
+    padding: 5px 8px;
+    width: 120px;
+
+    &::placeholder {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+        color: rgba(0, 0, 0, 0.38);
+    }
+}
+
+.search {
+    width: 100%;
+}
+
+.search_input:focus {
+    box-shadow: none !important;
+    border: 1px solid rgba(0, 0, 0, 0.205) !important;
+}
+
+.search_input {
+    padding: 10px !important;
+    filter: drop-shadow(0px 2px 0px rgba(0, 0, 0, 0.14)) drop-shadow(0px 1px 0px rgba(0, 0, 0, 0.12)) drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.2));
+    border-radius: none !important;
+
+    &::placeholder {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        display: flex;
+        align-items: flex-start;
+        color: rgba(0, 0, 0, 0.38);
+        padding: 15px 5px;
+    }
+
+    &:valid {
+        padding-left: 40px !important;
+    }
+}
+
+.search_icon {
+    position: absolute;
+    left: 25px;
+    font-size: 20px;
+    top: 5px;
+    z-index: 111;
+}
+
+.korzinka {
+    position: absolute;
+    border: none;
+    font-size: 30px;
+    left: 33rem !important;
+    top: -3rem;
+}

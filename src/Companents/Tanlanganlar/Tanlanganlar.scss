@@ -1,0 +1,68 @@
+.hamma_narx {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 16px;
+    color: #000000;
+    margin: 40px 0;
+}
+
+.blokk {
+    // position: relative;
+    margin: 0 auto;
+    display: flex !important;
+    justify-content: space-evenly !important;
+    // border: 1px solid rgba(0, 0, 0, 0.199);
+    width: 800px;
+    padding: 45px 5px;
+    box-shadow: 2px 3px 5px #0000002d;
+    margin-bottom: 10px;
+}
+
+.narx {
+    margin-top: 20px;
+}
+
+.group-btn {
+    display: flex;
+    align-items: center;
+
+    .soni {
+        padding: 5px 10px;
+        margin-top: 15px;
+        border: 1px solid rgba(0, 0, 0, 0.26);
+        border-radius: 10x;
+    }
+}
+
+.price {
+    margin-top: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.category {
+    margin-top: 16px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.del_btn {
+    font-size: 25px;
+    // position: absolute;
+    margin-top: -30px;
+    margin-left: 100px !important;
+}
